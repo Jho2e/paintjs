@@ -1,0 +1,29 @@
+let painting = false;
+
+1.
+
+if(painting === false){
+//경로를 만든다.
+}else{
+//그린다.
+}
+
+2.
+
+if(!painting){
+//경로를 만든다.
+}else{
+//그린다.
+}
+
+!painting 은 !false (true) 를 의미하면서
+
+if(true){} 인 것과 같이 if문을 실행하게 된다.
+
+즉, 1번 방법과 2번방법은 같다.
+
+------------------------------------------------------------------
+ctx.beginPath(); //경로 생성
+ctx.moveTo(x, y); //선 시작 좌표
+ctx.lineTo(x, y); //선 끝 좌표
+ctx.stroke(); //선 그리기
